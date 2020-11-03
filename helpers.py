@@ -6,8 +6,9 @@ Authors: Zarius Dubash and Annie Sheil
 
 import pandas as pd
 import requests
-import os
+import matplotlib.pyplot as plt
 
+# Data GIDs manually
 data_gids = {
         "Summary" : "264100583",
         "Trends" : "1592746937",
@@ -35,3 +36,9 @@ def get_covid_data(worksheet):
 def get_all_covid_data():
     for worksheet in data_gids:
         get_covid_data(worksheet)
+
+# def get_gis_data():
+#     gis_url = "https://opendata.arcgis.com/datasets/957468e8bb3245e8b3321a7bf3b6d4aa_0.zip"
+#     r = requests.get(url = gis_url)
+#     with open("shapefiles/", 'wb') as fd:
+#         for chunk 
