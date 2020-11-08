@@ -20,5 +20,5 @@ Shapefiles for the state of Rhode Island are also necessary. Use `download_unzip
 
 
 Installed libraries are as follows:
-Geopandas: pip install geopandas
-Descartes: pip install descartes
+* Geopandas: pip install geopandas
+* Descartes: pip install descartes
