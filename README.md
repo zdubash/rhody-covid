@@ -10,6 +10,7 @@ The project contains a few files:
 * Computational-Essay.ipynb -  The in depth analysis of our visualizations and functions.
 * plot.py - The functions used to interact with and plot the data set.
 * helpers.py - The functions used to download relevant data.
+* test_plot.py - The functions used to test the data cleaning functions in `plot.py`.
 
 In `helpers.py`, run `get_covid_data` or `get_all_covid_data` to download CSV files from the RIDOH Google Sheet. We recommend starting with `Demographics.csv` and `Municipality.csv`.
 
