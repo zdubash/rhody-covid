@@ -11,6 +11,14 @@ The project contains a few files:
 * plot.py - The functions used to interact with and plot the data set.
 * helpers.py - The functions used to download relevant data.
 
+In `helpers.py`, run `get_covid_data` or `get_all_covid_data` to download CSV files from the RIDOH Google Sheet. We recommend starting with `Demographics.csv` and `Municipality.csv`.
+
+In `plot.py`, use `clean_demograhic_data` and `plot_demographic_data` as well as `clean_heatmap_data` and `plot_heatmap_data` to perform analysis and graphing of demographic and municipality data.
+
+For the heatmaps to work properly, Geopandas and Descartes must be installed. Installation instructions are below.
+Shapefiles for the state of Rhode Island are also necessary. Use `download_unzip` in `helpers.py` on this link to Rhode Island GIS files to obtain those: https://opendata.arcgis.com/datasets/957468e8bb3245e8b3321a7bf3b6d4aa_0.zip
+
+
 Installed libraries are as follows:
-Zip??
-Geopandas???
+Geopandas: pip install geopandas
+Descartes: pip install descartes
